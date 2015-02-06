@@ -375,13 +375,17 @@ footer {
 }
 
 span{
-
   font-size: 1em;
-
 }
 
 }
 
+@media (max-width: 1024px)
+{
+  section{
+    margin: 0 5% 30px 5%;
+  }
+}
 /* Float Clearfix ------------------ */
 
 .group:after {
