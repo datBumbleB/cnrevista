@@ -155,11 +155,12 @@ section div{
   padding-left: 20px;
   padding-right: 20px;
 }
+
 #catalog-1, #catalog-3{
   float: right;
 }
 
-#catalog-2, #catalog-4{
+#catalog-2, #catalog-4, #catalog-0{
   float: left;
 }
 
@@ -175,7 +176,7 @@ section div{
   max-heigh: 250px;
 }
 
-#evenim-16, #cons-11{
+#evenim-16, #cons-11, #con-emin2, #con-trad{
   float: right;
 }
 
@@ -190,8 +191,14 @@ section div{
   max-height: 250px;
 }
 
-#cons-12{
+#cons-12, #con-emin1{
   float: left;
+}
+
+#con-trad{
+  margin-top: 0;
+  max-width: 150px;
+  max-height: 150px;
 }
 
 /****** ------- END OF: cronica securista ----********/
@@ -211,8 +218,27 @@ section div{
 /****** -------END OF: dialogul muzelor--------**********/
 
 /****** ------- creatie--------**********/
+#creatie{
+  text-align: center;
+}
 
+/****** ------- Pagina RETRO--------**********/
+#retro img{
+  max-width: 150px;
+  max-height: 150px;
+}
 
+#retr-1, #retr-3, #retr-5, #retr-7, #retr-9{
+  float: right;
+}
+
+#retr-2, #retr-4, #retr-6, #retr-8{
+  float: left;
+}
+
+#retro{
+  margin-bottom: 70px;
+}
 /******************* MISC **********************************/
 
 .arrow {

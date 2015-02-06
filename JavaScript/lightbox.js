@@ -6,7 +6,7 @@ var $overlay = $('<div id="overlay"></div>');
 var $image = $('<img id="light-image">');
 var scrollPos;
 
-$overlay.css("height", $(document).height());
+$overlay.css("height", $(document).height() + 355);
 $image.css("position", "relative");
 //An image to overlay
 
