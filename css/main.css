@@ -380,8 +380,7 @@ span{
 
 }
 
-@media (max-width: 1025px)
-{
+@media (max-width: 1025px){
   section{
     margin: 0 5% 30px 5%;
   }
