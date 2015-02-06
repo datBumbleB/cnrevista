@@ -1,0 +1,335 @@
+/*****************************PARALAX************************/
+
+
+/***************************** HEADER ***********************/
+
+/*header{
+  position:fixed;
+  height:100%;
+  min-height:100%;
+  width:100%;
+}
+
+section{
+  margin-top:100%;
+  position:relative;
+}*/
+#main-header{
+ padding-top: 330px;
+  text-align: center;
+  background-color: lightgrey;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('../cnrv.jpg') no-repeat center;
+              /*linear-gradient(0deg, #fff, transparent),*/
+
+  background-size: cover;
+ box-shadow: 0 6px 9px rgba(0, 0, 0, 0.4);
+}
+
+#title{
+
+ color: white;
+  font-size: 7em;
+  font-weight: 900;
+  font-kerning: auto;
+
+}
+
+
+
+#real-header h1{
+   text-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+span{
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+
+  border-bottom: 2px solid white;
+}
+
+
+
+/*************************** END HEADER ********************/
+
+
+
+
+/*************************** TABLE OF CONTENTS *************/
+
+ul{
+   list-style-type: none;
+}
+
+#content-table{
+  margin: 0 0 50px 0;
+  text-align: left;
+  padding: 50px 15% 0 15%;
+
+
+}
+#content-table li{
+  padding: 15px 20px 15px 10px;
+  margin: 6px 0 6px 0px;
+  color: white;
+  background-color: slategrey;
+  transition-property: background;
+  transition-duration: 0.2s;
+  transition-timing-function: swing;
+}
+
+#content-table li:hover{
+  background-color: lightgrey;
+  cursor: hand;
+}
+
+#content-table li a{
+  color: white;
+  text-decoration: none;
+
+}
+
+#content-table ul{
+  margin: 0;
+  padding: 0;
+
+}
+#left-ct{
+  text-align: left;
+  float: left;
+
+}
+#right-ct{
+  text-align: left;
+  float: right;
+
+}
+
+#left-ct, #right-ct{
+  width: 30%;
+}
+/*************************** END TABLE OF CONTENTS *********/
+
+/*************************** IMAGES ************************/
+
+section a img{
+  padding: 20px;
+  margin: 20px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  max-width: 350px;
+  max-height: 350px;
+}
+
+section a img{
+    filter: none;
+    -webkit-filter: none;
+    -webkit-transition: all .2s ease;
+    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+}
+
+section a img:hover{
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(50%);
+}
+
+section img.no-lightbox{
+  background-color: none;
+}
+#overlay {
+  background: RGBA(0,0,0,.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+/******* ----- de vorba fara catalog ----- *******/
+section div{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#catalog-1, #catalog-3{
+  float: right;
+}
+
+#catalog-2, #catalog-4{
+  float: left;
+}
+
+
+/****** ----- cronica securista ------- ******/
+
+.align-to-center{
+  text-align: center;
+}
+
+#evenim-9, #evenim-10, #evenim-11{
+  max-width: 250px;
+  max-heigh: 250px;
+}
+
+#evenim-16, #cons-11{
+  float: right;
+}
+
+#cons-1{
+  width: 25%;
+  height: 25%;
+  float: left;
+}
+
+#viitoare a img{
+  max-width: 250px;
+  max-height: 250px;
+}
+
+#cons-12{
+  float: left;
+}
+
+/****** ------- END OF: cronica securista ----********/
+
+/****** ------- alumni --------**********/
+#alum-1{
+  float: left;
+}
+/****** ------- END OF: alumni ----********/
+
+/****** ------- CNRV Junior--------**********/
+#jun-1{
+  float:right;
+}
+/****** -------END OF: CNRV Junior--------**********/
+/******************* MISC **********************************/
+
+.arrow {
+  width: 50px;
+  padding: 30px 25px 30px 25px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.4);
+  transition-property: background;
+  transition-duration: 0.2s;
+  transition-timing-function: swing;
+}
+
+.arrow:hover{
+  background-color: rgba(200, 20, 20, 0.7);
+
+}
+a{
+  text-decoration: none;
+}
+
+#cd-main-nav a:link{
+  color: #727272;
+}
+
+#cd-main-nav a:visited{
+  color: #727272;
+}
+
+
+.categorie{
+  margin-top: 30px;
+   border-top: 2px solid #efefef;
+   padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.quote {
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #383838;
+overflow: hidden;
+}
+
+.quote:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -5px;
+top: -20px;
+color: #7a7a7a;
+
+}
+
+.quote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+
+.quote cite:before {
+content: "\2014 \2009";
+}
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  background-color: #D32F2F;
+  text-align: center;
+  font-weight:bold;
+
+}
+section{
+
+  margin: 0 12% 30px 12%;
+  padding: 0 5% 50px 5%;
+  box-shadow: 0px 5px 20px -10px rgba(0,0,0, .5);
+  background-color: white;
+
+}
+
+footer {
+  color: lightgrey;
+  text-align: center;
+  margin-bottom: 30px;
+}
+/****************************** RESPONSIVE ************************/
+
+@media (max-width: 768px){
+
+#title{
+ color: white;
+  font-size: 3em;
+}
+
+.menu-button{
+
+  height: 35px;
+  width: 35px;
+
+}
+
+span{
+
+  font-size: 1em;
+
+}
+
+}
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
