@@ -240,7 +240,22 @@ section div{
   margin-bottom: 70px;
 }
 /******************* MISC **********************************/
+h2, h3{
+  font-family: "Oswald", sans-serif;
+  font-kerning: auto;
+}
 
+h2{
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+h3{
+  margin-top: 0;
+  font-weight: 300;
+  font-size: 2em;
+
+}
 .arrow {
   width: 50px;
   padding: 30px 25px 30px 25px;
